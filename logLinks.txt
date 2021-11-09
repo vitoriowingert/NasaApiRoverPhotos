@@ -1,0 +1,11 @@
+### Listing the first 9 links to photos taken by NASA's Curiosity Mars Rover in 2021-11-08
+
+	-> Link 1: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/fcam/FLB_689649445EDR_F0912132FHAZ00341M_.JPG
+	-> Link 2: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/fcam/FRB_689649445EDR_F0912132FHAZ00341M_.JPG
+	-> Link 3: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/rcam/RLB_689649478EDR_F0912132RHAZ00341M_.JPG
+	-> Link 4: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/rcam/RRB_689649478EDR_F0912132RHAZ00341M_.JPG
+	-> Link 5: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/ccam/CR0_689648877EDR_F0912132CCAM04289M_.JPG
+	-> Link 6: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/ccam/CR0_689648255EDR_F0912132CCAM04289M_.JPG
+	-> Link 7: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/ccam/CR0_689648138EDR_F0912132CCAM03289M_.JPG
+	-> Link 8: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/ccam/CR0_689647461EDR_F0912132CCAM03289M_.JPG
+	-> Link 9: https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03291/opgs/edr/ncam/NRB_689646141EDR_M0912132NCAM00580M_.JPG
