@@ -61,8 +61,15 @@ func apiCall(urlApi string, earthDate string) {
 	if len(result.Photos) == 0 {
 		fmt.Println("No response from request")
 	} else {
+		var total int
+		if len(result.Photos) < 10 {
+			total = len(result.Photos)
+		} else {
+			total = 10
+		}
+
 		// In case we don't receive at least 10 links, we list all the links we received from the API
-		fmt.Printf("Listing the first %v links to photos taken by NASA's Curiosity Mars Rover in %v\n", len(result.Photos), earthDate)
+		fmt.Printf("Listing the first %v links to photos taken by NASA's Curiosity Mars Rover in %v\n", total, earthDate)
 
 		var text string
 		counter := 1
@@ -75,11 +82,11 @@ func apiCall(urlApi string, earthDate string) {
 			 * preventing runtime error index out of range
 			 */
 			if i == len(result.Photos) {
-				return
+				break
 			}
 
 			photos[i] = result.Photos[i].ImageLink
-			text += "\t-> Link " + strconv.Itoa(counter) + ": " + photos[i] + "\n"
+			text += "\t-> Link," + strconv.Itoa(counter) + ": " + photos[i] + "\n"
 
 			fmt.Printf("\t -> Link #%v: %v\n", counter, photos[i])
 
@@ -103,7 +110,7 @@ func logIntoFile(text string) {
 		return
 	}
 
-	fmt.Println(l, "bytes written successfully!")
+	fmt.Println("\t", l, "bytes written successfully!")
 	err = f.Close()
 	if err != nil {
 		fmt.Println(err)
