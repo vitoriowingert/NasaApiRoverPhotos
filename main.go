@@ -49,7 +49,7 @@ func apiCall(urlApi string, earthDate string) {
 		fmt.Println("No response from request")
 	}
 
-	body, _ := ioutil.ReadAll(resp.Body) // response body is []byte
+	body, _ := ioutil.ReadAll(resp.Body)
 
 	var result Response
 	if err := json.Unmarshal(body, &result); err != nil {
