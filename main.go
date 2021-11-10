@@ -52,7 +52,7 @@ func apiCall(urlApi string, earthDate string) {
 	body, _ := ioutil.ReadAll(resp.Body) // response body is []byte
 
 	var result Response
-	if err := json.Unmarshal(body, &result); err != nil { // Parse []byte to the go struct pointer
+	if err := json.Unmarshal(body, &result); err != nil {
 		fmt.Println("Can not unmarshal JSON")
 	}
 
